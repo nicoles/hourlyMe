@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2FF16314258B56001489D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF16214258B56001489D4 /* UIKit.framework */; };
+		BB2FF16514258B56001489D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF16414258B56001489D4 /* Foundation.framework */; };
+		BB2FF16714258B56001489D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF16614258B56001489D4 /* CoreGraphics.framework */; };
+		BB2FF16D14258B56001489D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB2FF16B14258B56001489D4 /* InfoPlist.strings */; };
+		BB2FF16F14258B56001489D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF16E14258B56001489D4 /* main.m */; };
+		BB2FF17314258B56001489D4 /* hourlyMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF17214258B56001489D4 /* hourlyMeAppDelegate.m */; };
+		BB2FF17614258B56001489D4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2FF17414258B56001489D4 /* MainWindow.xib */; };
+		BB2FF17914258B56001489D4 /* hourlyMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF17814258B56001489D4 /* hourlyMeViewController.m */; };
+		BB2FF17C14258B56001489D4 /* hourlyMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2FF17A14258B56001489D4 /* hourlyMeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB2FF15E14258B56001489D4 /* hourlyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hourlyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2FF16214258B56001489D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB2FF16414258B56001489D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB2FF16614258B56001489D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB2FF16A14258B56001489D4 /* hourlyMe-Info.plist */ = {isa = PBXFileReference; path = "hourlyMe-Info.plist"; sourceTree = "<group>"; };
+		BB2FF16C14258B56001489D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB2FF16E14258B56001489D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB2FF17014258B56001489D4 /* hourlyMe-Prefix.pch */ = {isa = PBXFileReference; path = "hourlyMe-Prefix.pch"; sourceTree = "<group>"; };
+		BB2FF17114258B56001489D4 /* hourlyMeAppDelegate.h */ = {isa = PBXFileReference; path = hourlyMeAppDelegate.h; sourceTree = "<group>"; };
+		BB2FF17214258B56001489D4 /* hourlyMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hourlyMeAppDelegate.m; sourceTree = "<group>"; };
+		BB2FF17514258B56001489D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BB2FF17714258B56001489D4 /* hourlyMeViewController.h */ = {isa = PBXFileReference; path = hourlyMeViewController.h; sourceTree = "<group>"; };
+		BB2FF17814258B56001489D4 /* hourlyMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hourlyMeViewController.m; sourceTree = "<group>"; };
+		BB2FF17B14258B56001489D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/hourlyMeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2FF15B14258B56001489D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2FF16314258B56001489D4 /* UIKit.framework in Frameworks */,
+				BB2FF16514258B56001489D4 /* Foundation.framework in Frameworks */,
+				BB2FF16714258B56001489D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2FF15314258B56001489D4 = {
+			isa = PBXGroup;
+			children = (
+				BB2FF16814258B56001489D4 /* hourlyMe */,
+				BB2FF16114258B56001489D4 /* Frameworks */,
+				BB2FF15F14258B56001489D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2FF15F14258B56001489D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2FF15E14258B56001489D4 /* hourlyMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2FF16114258B56001489D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB2FF16214258B56001489D4 /* UIKit.framework */,
+				BB2FF16414258B56001489D4 /* Foundation.framework */,
+				BB2FF16614258B56001489D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB2FF16814258B56001489D4 /* hourlyMe */ = {
+			isa = PBXGroup;
+			children = (
+				BB2FF17114258B56001489D4 /* hourlyMeAppDelegate.h */,
+				BB2FF17214258B56001489D4 /* hourlyMeAppDelegate.m */,
+				BB2FF17414258B56001489D4 /* MainWindow.xib */,
+				BB2FF17714258B56001489D4 /* hourlyMeViewController.h */,
+				BB2FF17814258B56001489D4 /* hourlyMeViewController.m */,
+				BB2FF17A14258B56001489D4 /* hourlyMeViewController.xib */,
+				BB2FF16914258B56001489D4 /* Supporting Files */,
+			);
+			path = hourlyMe;
+			sourceTree = "<group>";
+		};
+		BB2FF16914258B56001489D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2FF16A14258B56001489D4 /* hourlyMe-Info.plist */,
+				BB2FF16B14258B56001489D4 /* InfoPlist.strings */,
+				BB2FF16E14258B56001489D4 /* main.m */,
+				BB2FF17014258B56001489D4 /* hourlyMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2FF15D14258B56001489D4 /* hourlyMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2FF17F14258B56001489D4 /* Build configuration list for PBXNativeTarget "hourlyMe" */;
+			buildPhases = (
+				BB2FF15A14258B56001489D4 /* Sources */,
+				BB2FF15B14258B56001489D4 /* Frameworks */,
+				BB2FF15C14258B56001489D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hourlyMe;
+			productName = hourlyMe;
+			productReference = BB2FF15E14258B56001489D4 /* hourlyMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2FF15514258B56001489D4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BB2FF15814258B56001489D4 /* Build configuration list for PBXProject "hourlyMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB2FF15314258B56001489D4;
+			productRefGroup = BB2FF15F14258B56001489D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2FF15D14258B56001489D4 /* hourlyMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2FF15C14258B56001489D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2FF16D14258B56001489D4 /* InfoPlist.strings in Resources */,
+				BB2FF17614258B56001489D4 /* MainWindow.xib in Resources */,
+				BB2FF17C14258B56001489D4 /* hourlyMeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2FF15A14258B56001489D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2FF16F14258B56001489D4 /* main.m in Sources */,
+				BB2FF17314258B56001489D4 /* hourlyMeAppDelegate.m in Sources */,
+				BB2FF17914258B56001489D4 /* hourlyMeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB2FF16B14258B56001489D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2FF16C14258B56001489D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB2FF17414258B56001489D4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2FF17514258B56001489D4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BB2FF17A14258B56001489D4 /* hourlyMeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2FF17B14258B56001489D4 /* en */,
+			);
+			name = hourlyMeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2FF17D14258B56001489D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB2FF17E14258B56001489D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2FF18014258B56001489D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hourlyMe/hourlyMe-Prefix.pch";
+				INFOPLIST_FILE = "hourlyMe/hourlyMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB2FF18114258B56001489D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hourlyMe/hourlyMe-Prefix.pch";
+				INFOPLIST_FILE = "hourlyMe/hourlyMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2FF15814258B56001489D4 /* Build configuration list for PBXProject "hourlyMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2FF17D14258B56001489D4 /* Debug */,
+				BB2FF17E14258B56001489D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2FF17F14258B56001489D4 /* Build configuration list for PBXNativeTarget "hourlyMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2FF18014258B56001489D4 /* Debug */,
+				BB2FF18114258B56001489D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2FF15514258B56001489D4 /* Project object */;
+}
