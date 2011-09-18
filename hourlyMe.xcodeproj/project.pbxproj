@@ -16,6 +16,8 @@
 		BB2FF17614258B56001489D4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2FF17414258B56001489D4 /* MainWindow.xib */; };
 		BB2FF17914258B56001489D4 /* hourlyMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF17814258B56001489D4 /* hourlyMeViewController.m */; };
 		BB2FF17C14258B56001489D4 /* hourlyMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2FF17A14258B56001489D4 /* hourlyMeViewController.xib */; };
+		BB2FF18414259680001489D4 /* fourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF18314259680001489D4 /* fourLines.m */; };
+		BB2FF18A1425C693001489D4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF1891425C693001489D4 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,19 @@
 		BB2FF16214258B56001489D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BB2FF16414258B56001489D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB2FF16614258B56001489D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BB2FF16A14258B56001489D4 /* hourlyMe-Info.plist */ = {isa = PBXFileReference; path = "hourlyMe-Info.plist"; sourceTree = "<group>"; };
+		BB2FF16A14258B56001489D4 /* hourlyMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hourlyMe-Info.plist"; sourceTree = "<group>"; };
 		BB2FF16C14258B56001489D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB2FF16E14258B56001489D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB2FF17014258B56001489D4 /* hourlyMe-Prefix.pch */ = {isa = PBXFileReference; path = "hourlyMe-Prefix.pch"; sourceTree = "<group>"; };
-		BB2FF17114258B56001489D4 /* hourlyMeAppDelegate.h */ = {isa = PBXFileReference; path = hourlyMeAppDelegate.h; sourceTree = "<group>"; };
+		BB2FF17014258B56001489D4 /* hourlyMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hourlyMe-Prefix.pch"; sourceTree = "<group>"; };
+		BB2FF17114258B56001489D4 /* hourlyMeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hourlyMeAppDelegate.h; sourceTree = "<group>"; };
 		BB2FF17214258B56001489D4 /* hourlyMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hourlyMeAppDelegate.m; sourceTree = "<group>"; };
 		BB2FF17514258B56001489D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		BB2FF17714258B56001489D4 /* hourlyMeViewController.h */ = {isa = PBXFileReference; path = hourlyMeViewController.h; sourceTree = "<group>"; };
+		BB2FF17714258B56001489D4 /* hourlyMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hourlyMeViewController.h; sourceTree = "<group>"; };
 		BB2FF17814258B56001489D4 /* hourlyMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hourlyMeViewController.m; sourceTree = "<group>"; };
 		BB2FF17B14258B56001489D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/hourlyMeViewController.xib; sourceTree = "<group>"; };
+		BB2FF18214259680001489D4 /* fourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourLines.h; sourceTree = "<group>"; };
+		BB2FF18314259680001489D4 /* fourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourLines.m; sourceTree = "<group>"; };
+		BB2FF1891425C693001489D4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2FF18A1425C693001489D4 /* MessageUI.framework in Frameworks */,
 				BB2FF16314258B56001489D4 /* UIKit.framework in Frameworks */,
 				BB2FF16514258B56001489D4 /* Foundation.framework in Frameworks */,
 				BB2FF16714258B56001489D4 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +75,7 @@
 		BB2FF16114258B56001489D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB2FF1891425C693001489D4 /* MessageUI.framework */,
 				BB2FF16214258B56001489D4 /* UIKit.framework */,
 				BB2FF16414258B56001489D4 /* Foundation.framework */,
 				BB2FF16614258B56001489D4 /* CoreGraphics.framework */,
@@ -84,6 +91,8 @@
 				BB2FF17414258B56001489D4 /* MainWindow.xib */,
 				BB2FF17714258B56001489D4 /* hourlyMeViewController.h */,
 				BB2FF17814258B56001489D4 /* hourlyMeViewController.m */,
+				BB2FF18214259680001489D4 /* fourLines.h */,
+				BB2FF18314259680001489D4 /* fourLines.m */,
 				BB2FF17A14258B56001489D4 /* hourlyMeViewController.xib */,
 				BB2FF16914258B56001489D4 /* Supporting Files */,
 			);
@@ -164,6 +173,7 @@
 				BB2FF16F14258B56001489D4 /* main.m in Sources */,
 				BB2FF17314258B56001489D4 /* hourlyMeAppDelegate.m in Sources */,
 				BB2FF17914258B56001489D4 /* hourlyMeViewController.m in Sources */,
+				BB2FF18414259680001489D4 /* fourLines.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hourlyMe/hourlyMe-Prefix.pch";
 				INFOPLIST_FILE = "hourlyMe/hourlyMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -257,6 +268,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hourlyMe/hourlyMe-Prefix.pch";
 				INFOPLIST_FILE = "hourlyMe/hourlyMe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
