@@ -3,7 +3,10 @@ build/
 *.pbxuser
 *.mode1v3
 *.mode2v3
-*.perspectivev*
+*.perspective
+*.perspectivev3
+
+*.ipa
 
 .DS_Store
-*.DS_Store
+xcuserdata
