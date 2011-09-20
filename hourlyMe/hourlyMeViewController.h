@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "fourLines.h"
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
 
@@ -18,17 +17,16 @@
 
 }
 
-@property (nonatomic, retain) IBOutlet UITextField *field1;
-@property (nonatomic, retain) IBOutlet UITextField *field2;
-@property (nonatomic, retain) IBOutlet UITextField *field3;
-@property (nonatomic, retain) IBOutlet UITextField *field4;
-@property (nonatomic, retain) IBOutlet UISegmentedControl *happinessIndex;
-@property (nonatomic, retain) IBOutlet UISegmentedControl *energyIndex;
+@property (nonatomic, retain) IBOutlet UISlider *happinessIndex;
+@property (nonatomic, retain) IBOutlet UILabel *happinessLabel;
+@property (nonatomic, retain) IBOutlet UISlider *energyIndex;
+@property (nonatomic, retain) IBOutlet UILabel *energyLabel;
 
 - (NSString *)dataFilePath;
 - (void)applicationWillResignActive:(NSNotification *)notification;
 - (IBAction)logFieldsToFile;
-- (IBAction)markEvent:(id)sender;
 - (IBAction)sendToSelf;
+- (IBAction)happinessChanged:(id)sender;
+- (IBAction)energyChanged:(id)sender;
 
 @end

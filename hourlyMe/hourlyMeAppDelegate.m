@@ -15,12 +15,14 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize rootController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
      
     self.window.rootViewController = self.viewController;
+    [self.window addSubview:rootController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -66,6 +68,7 @@
 
 - (void)dealloc
 {
+    [rootController release];
     [_window release];
     [_viewController release];
     [super dealloc];

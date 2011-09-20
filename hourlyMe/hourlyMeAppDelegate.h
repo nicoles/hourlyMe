@@ -11,9 +11,12 @@
 
 @class hourlyMeViewController;
 
-@interface hourlyMeAppDelegate : NSObject <UIApplicationDelegate>
+@interface hourlyMeAppDelegate : NSObject <UIApplicationDelegate>{
+    UITabBarController *rootController;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarController *rootController;
 
 @property (nonatomic, retain) IBOutlet hourlyMeViewController *viewController;
 

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23145FCF1427E6030047A5D3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23145FCE1427E6030047A5D3 /* icon.png */; };
+		23145FD31427E6E10047A5D3 /* EventPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23145FD11427E6E10047A5D3 /* EventPickerViewController.m */; };
+		23145FD41427E6E10047A5D3 /* EventPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23145FD21427E6E10047A5D3 /* EventPickerViewController.xib */; };
+		2380814B142811EE0073AE7C /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = 23808149142811EE0073AE7C /* events.png */; };
+		2380814C142811EE0073AE7C /* gears.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380814A142811EE0073AE7C /* gears.png */; };
+		2380814F1428120F0073AE7C /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380814E1428120F0073AE7C /* slider.png */; };
+		23808151142812630073AE7C /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 23808150142812630073AE7C /* graph.png */; };
 		BB2FF16314258B56001489D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF16214258B56001489D4 /* UIKit.framework */; };
 		BB2FF16514258B56001489D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF16414258B56001489D4 /* Foundation.framework */; };
 		BB2FF16714258B56001489D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF16614258B56001489D4 /* CoreGraphics.framework */; };
@@ -16,11 +23,18 @@
 		BB2FF17614258B56001489D4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2FF17414258B56001489D4 /* MainWindow.xib */; };
 		BB2FF17914258B56001489D4 /* hourlyMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF17814258B56001489D4 /* hourlyMeViewController.m */; };
 		BB2FF17C14258B56001489D4 /* hourlyMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2FF17A14258B56001489D4 /* hourlyMeViewController.xib */; };
-		BB2FF18414259680001489D4 /* fourLines.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF18314259680001489D4 /* fourLines.m */; };
 		BB2FF18A1425C693001489D4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2FF1891425C693001489D4 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23145FCE1427E6030047A5D3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		23145FD01427E6E10047A5D3 /* EventPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPickerViewController.h; sourceTree = "<group>"; };
+		23145FD11427E6E10047A5D3 /* EventPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPickerViewController.m; sourceTree = "<group>"; };
+		23145FD21427E6E10047A5D3 /* EventPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventPickerViewController.xib; sourceTree = "<group>"; };
+		23808149142811EE0073AE7C /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+		2380814A142811EE0073AE7C /* gears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gears.png; sourceTree = "<group>"; };
+		2380814E1428120F0073AE7C /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		23808150142812630073AE7C /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
 		BB2FF15E14258B56001489D4 /* hourlyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hourlyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2FF16214258B56001489D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BB2FF16414258B56001489D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +49,6 @@
 		BB2FF17714258B56001489D4 /* hourlyMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hourlyMeViewController.h; sourceTree = "<group>"; };
 		BB2FF17814258B56001489D4 /* hourlyMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hourlyMeViewController.m; sourceTree = "<group>"; };
 		BB2FF17B14258B56001489D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/hourlyMeViewController.xib; sourceTree = "<group>"; };
-		BB2FF18214259680001489D4 /* fourLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourLines.h; sourceTree = "<group>"; };
-		BB2FF18314259680001489D4 /* fourLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourLines.m; sourceTree = "<group>"; };
 		BB2FF1891425C693001489D4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -89,11 +101,17 @@
 				BB2FF17114258B56001489D4 /* hourlyMeAppDelegate.h */,
 				BB2FF17214258B56001489D4 /* hourlyMeAppDelegate.m */,
 				BB2FF17414258B56001489D4 /* MainWindow.xib */,
+				23808150142812630073AE7C /* graph.png */,
+				2380814E1428120F0073AE7C /* slider.png */,
+				23808149142811EE0073AE7C /* events.png */,
+				2380814A142811EE0073AE7C /* gears.png */,
 				BB2FF17714258B56001489D4 /* hourlyMeViewController.h */,
 				BB2FF17814258B56001489D4 /* hourlyMeViewController.m */,
-				BB2FF18214259680001489D4 /* fourLines.h */,
-				BB2FF18314259680001489D4 /* fourLines.m */,
 				BB2FF17A14258B56001489D4 /* hourlyMeViewController.xib */,
+				23145FD01427E6E10047A5D3 /* EventPickerViewController.h */,
+				23145FD11427E6E10047A5D3 /* EventPickerViewController.m */,
+				23145FD21427E6E10047A5D3 /* EventPickerViewController.xib */,
+				23145FCE1427E6030047A5D3 /* icon.png */,
 				BB2FF16914258B56001489D4 /* Supporting Files */,
 			);
 			path = hourlyMe;
@@ -160,6 +178,12 @@
 				BB2FF16D14258B56001489D4 /* InfoPlist.strings in Resources */,
 				BB2FF17614258B56001489D4 /* MainWindow.xib in Resources */,
 				BB2FF17C14258B56001489D4 /* hourlyMeViewController.xib in Resources */,
+				23145FCF1427E6030047A5D3 /* icon.png in Resources */,
+				23145FD41427E6E10047A5D3 /* EventPickerViewController.xib in Resources */,
+				2380814B142811EE0073AE7C /* events.png in Resources */,
+				2380814C142811EE0073AE7C /* gears.png in Resources */,
+				2380814F1428120F0073AE7C /* slider.png in Resources */,
+				23808151142812630073AE7C /* graph.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +197,7 @@
 				BB2FF16F14258B56001489D4 /* main.m in Sources */,
 				BB2FF17314258B56001489D4 /* hourlyMeAppDelegate.m in Sources */,
 				BB2FF17914258B56001489D4 /* hourlyMeViewController.m in Sources */,
-				BB2FF18414259680001489D4 /* fourLines.m in Sources */,
+				23145FD31427E6E10047A5D3 /* EventPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +317,7 @@
 				BB2FF18114258B56001489D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
