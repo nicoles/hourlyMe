@@ -28,5 +28,6 @@
 - (IBAction)sendToSelf;
 - (IBAction)happinessChanged:(id)sender;
 - (IBAction)energyChanged:(id)sender;
+- (void)scheduleHourlyNotification;
 
 @end
