@@ -10,6 +10,16 @@
 		23145FCF1427E6030047A5D3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 23145FCE1427E6030047A5D3 /* icon.png */; };
 		23145FD31427E6E10047A5D3 /* EventPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23145FD11427E6E10047A5D3 /* EventPickerViewController.m */; };
 		23145FD41427E6E10047A5D3 /* EventPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23145FD21427E6E10047A5D3 /* EventPickerViewController.xib */; };
+		235BA20B14296EF9004EC414 /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = 235BA20914296EF9004EC414 /* events.png */; };
+		235BA20C14296EF9004EC414 /* events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235BA20A14296EF9004EC414 /* events@2x.png */; };
+		235BA20F14296F0B004EC414 /* gears@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235BA20E14296F0B004EC414 /* gears@2x.png */; };
+		235BA21114296F13004EC414 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235BA21014296F13004EC414 /* graph@2x.png */; };
+		235BA21314296F1D004EC414 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235BA21214296F1D004EC414 /* icon@2x.png */; };
+		235BA21514296F25004EC414 /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235BA21414296F25004EC414 /* slider@2x.png */; };
+		235BA21914296FA1004EC414 /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235BA21714296FA1004EC414 /* AnalyticsViewController.m */; };
+		235BA21A14296FA1004EC414 /* AnalyticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235BA21814296FA1004EC414 /* AnalyticsViewController.xib */; };
+		235BA21E14297136004EC414 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235BA21C14297136004EC414 /* SettingsViewController.m */; };
+		235BA21F14297136004EC414 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 235BA21D14297136004EC414 /* SettingsViewController.xib */; };
 		2380814B142811EE0073AE7C /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = 23808149142811EE0073AE7C /* events.png */; };
 		2380814C142811EE0073AE7C /* gears.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380814A142811EE0073AE7C /* gears.png */; };
 		2380814F1428120F0073AE7C /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380814E1428120F0073AE7C /* slider.png */; };
@@ -31,6 +41,18 @@
 		23145FD01427E6E10047A5D3 /* EventPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPickerViewController.h; sourceTree = "<group>"; };
 		23145FD11427E6E10047A5D3 /* EventPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPickerViewController.m; sourceTree = "<group>"; };
 		23145FD21427E6E10047A5D3 /* EventPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventPickerViewController.xib; sourceTree = "<group>"; };
+		235BA20914296EF9004EC414 /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+		235BA20A14296EF9004EC414 /* events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "events@2x.png"; sourceTree = "<group>"; };
+		235BA20E14296F0B004EC414 /* gears@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gears@2x.png"; sourceTree = "<group>"; };
+		235BA21014296F13004EC414 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
+		235BA21214296F1D004EC414 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		235BA21414296F25004EC414 /* slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@2x.png"; sourceTree = "<group>"; };
+		235BA21614296FA1004EC414 /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
+		235BA21714296FA1004EC414 /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
+		235BA21814296FA1004EC414 /* AnalyticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnalyticsViewController.xib; sourceTree = "<group>"; };
+		235BA21B14297136004EC414 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		235BA21C14297136004EC414 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		235BA21D14297136004EC414 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		23808149142811EE0073AE7C /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
 		2380814A142811EE0073AE7C /* gears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gears.png; sourceTree = "<group>"; };
 		2380814E1428120F0073AE7C /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
@@ -101,6 +123,18 @@
 				BB2FF17114258B56001489D4 /* hourlyMeAppDelegate.h */,
 				BB2FF17214258B56001489D4 /* hourlyMeAppDelegate.m */,
 				BB2FF17414258B56001489D4 /* MainWindow.xib */,
+				235BA21B14297136004EC414 /* SettingsViewController.h */,
+				235BA21C14297136004EC414 /* SettingsViewController.m */,
+				235BA21D14297136004EC414 /* SettingsViewController.xib */,
+				235BA21614296FA1004EC414 /* AnalyticsViewController.h */,
+				235BA21714296FA1004EC414 /* AnalyticsViewController.m */,
+				235BA21814296FA1004EC414 /* AnalyticsViewController.xib */,
+				235BA21414296F25004EC414 /* slider@2x.png */,
+				235BA21214296F1D004EC414 /* icon@2x.png */,
+				235BA21014296F13004EC414 /* graph@2x.png */,
+				235BA20E14296F0B004EC414 /* gears@2x.png */,
+				235BA20914296EF9004EC414 /* events.png */,
+				235BA20A14296EF9004EC414 /* events@2x.png */,
 				23808150142812630073AE7C /* graph.png */,
 				2380814E1428120F0073AE7C /* slider.png */,
 				23808149142811EE0073AE7C /* events.png */,
@@ -184,6 +218,14 @@
 				2380814C142811EE0073AE7C /* gears.png in Resources */,
 				2380814F1428120F0073AE7C /* slider.png in Resources */,
 				23808151142812630073AE7C /* graph.png in Resources */,
+				235BA20B14296EF9004EC414 /* events.png in Resources */,
+				235BA20C14296EF9004EC414 /* events@2x.png in Resources */,
+				235BA20F14296F0B004EC414 /* gears@2x.png in Resources */,
+				235BA21114296F13004EC414 /* graph@2x.png in Resources */,
+				235BA21314296F1D004EC414 /* icon@2x.png in Resources */,
+				235BA21514296F25004EC414 /* slider@2x.png in Resources */,
+				235BA21A14296FA1004EC414 /* AnalyticsViewController.xib in Resources */,
+				235BA21F14297136004EC414 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +240,8 @@
 				BB2FF17314258B56001489D4 /* hourlyMeAppDelegate.m in Sources */,
 				BB2FF17914258B56001489D4 /* hourlyMeViewController.m in Sources */,
 				23145FD31427E6E10047A5D3 /* EventPickerViewController.m in Sources */,
+				235BA21914296FA1004EC414 /* AnalyticsViewController.m in Sources */,
+				235BA21E14297136004EC414 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
