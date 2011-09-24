@@ -51,7 +51,6 @@
     [data release];
 }
 
-#pragma mark - user interaction
 - (IBAction)happinessChanged:(id)sender{
     UISlider *slider = (UISlider *)sender;
     int progressAsInt = (int)(slider.value + 0.5f);
@@ -74,12 +73,7 @@
     if (!logFile) logFile = [[NSMutableString alloc] init];
     [logFile appendFormat:@"%@,%@,%f\r\n", happinessLabel.text,energyLabel.text,interval];//[happinessIndex titleForSegmentAtIndex:happinessIndex.selectedSegmentIndex],[energyIndex titleForSegmentAtIndex:energyIndex.selectedSegmentIndex], interval];
     [logFile writeToFile:[NSString stringWithFormat:@"%@/log.txt", [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]] atomically:YES encoding:NSUTF8StringEncoding error:nil];
-    NSArray *notifications = [[UIApplication sharedApplication] scheduledLocalNotifications];
-    NSLog(@"%@", notifications);
-    if(notifications.count == 0)
-    {
-        [self scheduleHourlyNotification];
-    }
+    
 }
 
 - (IBAction)sendToSelf{
@@ -95,41 +89,6 @@
 	[self becomeFirstResponder];
 	[self dismissModalViewControllerAnimated:YES];
 }
-
-#pragma mark - notification service
-
-- (void)scheduleHourlyNotification
-{
-    NSLog(@"Schedule!", nil);
-    NSCalendar *calendar = [NSCalendar autoupdatingCurrentCalendar];
-    NSDate *currentMoment = [[[NSDate alloc] init] autorelease];
-    NSDateComponents *dateComponents = [[[NSDateComponents alloc] init] autorelease];
-    [dateComponents setHour:1];
-    NSLog(@"%@", currentMoment);
-    NSLog(@"%i", dateComponents.minute);
-    NSDate *futureMoment = [calendar dateByAddingComponents:dateComponents toDate:currentMoment options:0];
-    NSLog(@"%@", futureMoment);
-    UILocalNotification *hourlyNotification = [[UILocalNotification alloc] init];
-    if (hourlyNotification == nil)
-        return;
-    hourlyNotification.fireDate = futureMoment;
-    hourlyNotification.timeZone = [NSTimeZone defaultTimeZone];
-    hourlyNotification.repeatInterval = NSHourCalendarUnit;
-    
-    
-    hourlyNotification.alertBody = @"It's been an hour!";
-    hourlyNotification.alertAction = NSLocalizedString(@"View Details", nil);
-    
-    hourlyNotification.soundName = UILocalNotificationDefaultSoundName;
-    hourlyNotification.applicationIconBadgeNumber = 1;
-    
-    [[UIApplication sharedApplication] scheduleLocalNotification:hourlyNotification];
-
-    NSLog(@"%@", hourlyNotification);
-    [hourlyNotification release];
-    
-}
-
 
 - (void)didReceiveMemoryWarning
 {

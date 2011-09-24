@@ -34,11 +34,6 @@
     NSMutableString *logFile = [[NSMutableString alloc] initWithContentsOfFile:[NSString stringWithFormat:@"%@/log.txt", [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]]];
     if (!logFile) logFile = [[NSMutableString alloc] init];
     NSLog(@"%@",resultButton.currentTitle);
-    
-    //if the sleep button is pressed, cancel all notifications! for sleeping!
-    if (resultButton.tag == 1) {
-        [[UIApplication sharedApplication] cancelAllLocalNotifications];
-    }
     [logFile appendFormat:@"%@,%f\r\n", resultButton.currentTitle, interval];
     [logFile writeToFile:[NSString stringWithFormat:@"%@/log.txt", [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]] atomically:YES encoding:NSUTF8StringEncoding error:nil];
     
@@ -48,16 +43,12 @@
 
 - (void)viewDidLoad
 {
-        [super viewDidLoad];
+    NSDate *now = [[NSDate alloc] init];
+    [timePicker setDate:now animated:NO];
+    [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    NSDate *now = [[NSDate alloc] init];
-    [timePicker setDate:now animated:NO];    
-    
-}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
