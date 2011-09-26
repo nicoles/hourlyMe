@@ -1,0 +1,122 @@
+// !$*UTF8*$!
+{
+	BB2FF15514258B56001489D4 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BFCF0A741425CE6F0060FAA6 /* hourlyMe */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = BB2FF15D14258B56001489D4 /* hourlyMe */;
+		codeSenseManager = BFCF0A971425CEA30060FAA6 /* Code sense */;
+		executables = (
+			BFCF0A741425CE6F0060FAA6 /* hourlyMe */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 338694743;
+			PBXWorkspaceStateSaveDate = 338694743;
+		};
+		perUserProjectItems = {
+			BF642C3F1427C7E700B2F1F1 /* PBXTextBookmark */ = BF642C3F1427C7E700B2F1F1 /* PBXTextBookmark */;
+			BFFA29871430126F0092982C /* PBXTextBookmark */ = BFFA29871430126F0092982C /* PBXTextBookmark */;
+		};
+		sourceControlManager = BFCF0A961425CEA30060FAA6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BB2FF15D14258B56001489D4 /* hourlyMe */ = {
+		activeExec = 0;
+		executables = (
+			BFCF0A741425CE6F0060FAA6 /* hourlyMe */,
+		);
+	};
+	BB2FF17714258B56001489D4 /* hourlyMeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 507}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 432}";
+			sepNavWindowFrame = "{{15, 4}, {857, 774}}";
+		};
+	};
+	BF642C3F1427C7E700B2F1F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BB2FF17714258B56001489D4 /* hourlyMeViewController.h */;
+		name = "hourlyMeViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 0;
+	};
+	BFCF0A741425CE6F0060FAA6 /* hourlyMe */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = hourlyMe;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	BFCF0A961425CEA30060FAA6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BFCF0A971425CEA30060FAA6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BFFA29871430126F0092982C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BB2FF17714258B56001489D4 /* hourlyMeViewController.h */;
+		name = "hourlyMeViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 432;
+		vrLoc = 0;
+	};
+}

@@ -1,0 +1,343 @@
+ThourlyMe
+v7
+r0
+t338022049.968836
+cCheck dependencies
+cProcessInfoPlistFile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/Info.plist hourlyMe/hourlyMe-Info.plist
+cProcessPCH /var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch.gch hourlyMe/hourlyMe-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/main.o /Users/binx/Documents/hourlyMe/hourlyMe/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeAppDelegate.o /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeViewController.o /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/fourLines.o /Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe normal i386
+cGenerateDSYMFile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app.dSYM /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe
+cCopyStringsFile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/InfoPlist.strings hourlyMe/en.lproj/InfoPlist.strings
+cCompileXIB /Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/MainWindow.xib
+cCompileXIB /Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib
+cTouch /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004C5E1EEF00000000000028E4
+t1281236719
+s10468
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004C5E1EEF00000000000000CD
+t1281236719
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C5E1EFD0000000000091C50
+t1281236733
+s597072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app
+t1316329249
+s204
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app.dSYM
+t1316329249
+s102
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/Info.plist
+t1316329247
+s785
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/PkgInfo
+t1316329247
+s8
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/InfoPlist.strings
+t1316329249
+s42
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/MainWindow.nib
+t1316329249
+s1683
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/hourlyMeViewController.nib
+t1316329249
+s7919
+
+N/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe
+t1316329249
+s36456
+
+N/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/fourLines.o
+t1316329248
+s14220
+
+N/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMe.LinkFileList
+c000000004E75971F00000000000001F6
+t1316329247
+s502
+
+N/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeAppDelegate.o
+t1316329248
+s45004
+
+N/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeViewController.o
+t1316329248
+s67224
+
+N/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/main.o
+t1316329248
+s3096
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/InfoPlist.strings
+c000000004E7596E0000000000000002D
+t1316329184
+s45
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/MainWindow.xib
+c000000004E7596E00000000000004E25
+t1316329184
+s20005
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib
+c000000004E7596E00000000000006E84
+t1316329184
+s28292
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.h
+c000000004E7596E00000000000000208
+t1316329184
+s520
+i<Foundation/Foundation.h>
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m
+c000000004E7596E0000000000000059F
+t1316329184
+s1439
+i"fourLines.h"
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMe-Prefix.pch
+c000000004E7596E00000000000000142
+t1316329184
+s322
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.h
+c000000004E7596E000000000000001A3
+t1316329184
+s419
+i<UIKit/UIKit.h>
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.m
+c000000004E7596E0000000000000096D
+t1316329184
+s2413
+i"hourlyMeAppDelegate.h"
+i"hourlyMeViewController.h"
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.h
+c000000004E7596E000000000000003F4
+t1316329184
+s1012
+i<UIKit/UIKit.h>
+i"fourLines.h"
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.m
+c000000004E7596E000000000000017E6
+t1316329184
+s6118
+i"hourlyMeViewController.h"
+i"fourLines.h"
+
+N/Users/binx/Documents/hourlyMe/hourlyMe/main.m
+c000000004E7596E00000000000000167
+t1316329184
+s359
+i<UIKit/UIKit.h>
+
+N/var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch.gch
+t1316329248
+s11811856
+
+NhourlyMe/hourlyMe-Info.plist
+c000000004E7596E000000000000004A7
+t1316329184
+s1191
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338022047#338022047#0(0"0(0#1#0"8610202688#0"0#
+
+CCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/fourLines.o /Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s338022048.496607
+e338022048.584773
+r1
+xCompileC
+xbuild/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/fourLines.o
+x/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m: In function '-[fourLines copyWithZone:]':
+o/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m:48: warning: control reaches end of non-void function
+lSLF07#2@59"Compile /Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m338022048#338022048#0(201"/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m: In function '-[fourLines copyWithZone:]':/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m:48: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function338022048#95#106#0(6@51"/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m338021984#48#0#48#0#40"control reaches end of non-void function0(0#0#51"/Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m8610537248#1977"    cd /Users/binx/Documents/hourlyMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-generated-files.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-own-target-headers.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-all-target-headers.hmap -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-project-headers.hmap -F/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator -I/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/include -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources/i386 -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -include /var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch -c /Users/binx/Documents/hourlyMe/hourlyMe/fourLines.m -o /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/fourLines.o0#
+
+CCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeAppDelegate.o /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s338022048.308451
+e338022048.496511
+r1
+xCompileC
+xbuild/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeAppDelegate.o
+x/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@69"Compile /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.m338022048#338022048#0(0"0(0#0#61"/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.m8603453024#1997"    cd /Users/binx/Documents/hourlyMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-generated-files.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-own-target-headers.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-all-target-headers.hmap -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-project-headers.hmap -F/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator -I/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/include -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources/i386 -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -include /var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch -c /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeAppDelegate.m -o /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeAppDelegate.o0#
+
+CCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeViewController.o /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s338022048.467942
+e338022048.618730
+r1
+xCompileC
+xbuild/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeViewController.o
+x/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.m338022048#338022048#0(0"0(0#0#64"/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.m8610696768#2003"    cd /Users/binx/Documents/hourlyMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-generated-files.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-own-target-headers.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-all-target-headers.hmap -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-project-headers.hmap -F/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator -I/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/include -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources/i386 -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -include /var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch -c /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMeViewController.m -o /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMeViewController.o0#
+
+CCompileC build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/main.o /Users/binx/Documents/hourlyMe/hourlyMe/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s338022048.306987
+e338022048.467840
+r1
+xCompileC
+xbuild/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/main.o
+x/Users/binx/Documents/hourlyMe/hourlyMe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@54"Compile /Users/binx/Documents/hourlyMe/hourlyMe/main.m338022048#338022048#0(0"0(0#0#46"/Users/binx/Documents/hourlyMe/hourlyMe/main.m8603014048#1967"    cd /Users/binx/Documents/hourlyMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-generated-files.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-own-target-headers.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-all-target-headers.hmap -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-project-headers.hmap -F/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator -I/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/include -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources/i386 -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -include /var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch -c /Users/binx/Documents/hourlyMe/hourlyMe/main.m -o /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/MainWindow.xib
+s338022049.166063
+e338022049.651311
+r1
+xCompileXIB
+x/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/MainWindow.xib
+lSLF07#2@43"CompileXIB hourlyMe/en.lproj/MainWindow.xib338022049#338022049#0(0"0(0#0#63"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/MainWindow.xib8610255520#574"    cd /Users/binx/Documents/hourlyMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/MainWindow.nib /Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib
+s338022049.294802
+e338022049.947324
+r1
+xCompileXIB
+x/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:-1: warning: The 'happinessIndex' outlet of 'File's Owner' is connected to 'Bar Segmented Control (1, 2, 3, 4, 5, 6, 7)' but 'happinessIndex' is no longer defined on hourlyMeViewController.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:-1: warning: The 'energyIndex' outlet of 'File's Owner' is connected to 'Bar Segmented Control (1, 2, 3, 4, 5, 6, 7)' but 'energyIndex' is no longer defined on hourlyMeViewController.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on hourlyMeViewController.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:34: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Sleep)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:37: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Caffiene)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:35: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Alcohol)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:43: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Mail!)' is connected to the 'sendToSelf' selector of 'File's Owner', but 'sendToSelf' is no longer defined on 'hourlyMeViewController'.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:33: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Wake)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:36: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Food)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.
+o/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:23: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Log!)' is connected to the 'logFieldsToFile' selector of 'File's Owner', but 'logFieldsToFile' is no longer defined on 'hourlyMeViewController'.
+lSLF07#2@55"CompileXIB hourlyMe/en.lproj/hourlyMeViewController.xib338022049#338022049#0(2732"/* com.apple.ibtool.document.warnings *//Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:-1: warning: The 'happinessIndex' outlet of 'File's Owner' is connected to 'Bar Segmented Control (1, 2, 3, 4, 5, 6, 7)' but 'happinessIndex' is no longer defined on hourlyMeViewController./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:-1: warning: The 'energyIndex' outlet of 'File's Owner' is connected to 'Bar Segmented Control (1, 2, 3, 4, 5, 6, 7)' but 'energyIndex' is no longer defined on hourlyMeViewController./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on hourlyMeViewController./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:34: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Sleep)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:37: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Caffiene)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:35: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Alcohol)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:43: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Mail!)' is connected to the 'sendToSelf' selector of 'File's Owner', but 'sendToSelf' is no longer defined on 'hourlyMeViewController'./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:33: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Wake)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:36: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Food)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'./Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib:23: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Log!)' is connected to the 'logFieldsToFile' selector of 'File's Owner', but 'logFieldsToFile' is no longer defined on 'hourlyMeViewController'.10(22@176"The 'happinessIndex' outlet of 'File's Owner' is connected to 'Bar Segmented Control (1, 2, 3, 4, 5, 6, 7)' but 'happinessIndex' is no longer defined on hourlyMeViewController.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#18446744073709551615#0#18446744073709551615#0#0"0(22@170"The 'energyIndex' outlet of 'File's Owner' is connected to 'Bar Segmented Control (1, 2, 3, 4, 5, 6, 7)' but 'energyIndex' is no longer defined on hourlyMeViewController.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#18446744073709551615#0#18446744073709551615#0#0"0(22@117"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on hourlyMeViewController.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#18446744073709551615#0#18446744073709551615#0#0"0(22@188"The 'Touch Up Inside' event of 'Rounded Rect Button (Sleep)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#34#0#34#0#0"0(22@191"The 'Touch Up Inside' event of 'Rounded Rect Button (Caffiene)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#37#0#37#0#0"0(22@190"The 'Touch Up Inside' event of 'Rounded Rect Button (Alcohol)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#35#0#35#0#0"0(22@188"The 'Touch Up Inside' event of 'Rounded Rect Button (Mail!)' is connected to the 'sendToSelf' selector of 'File's Owner', but 'sendToSelf' is no longer defined on 'hourlyMeViewController'.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#43#0#43#0#0"0(22@187"The 'Touch Up Inside' event of 'Rounded Rect Button (Wake)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#33#0#33#0#0"0(22@187"The 'Touch Up Inside' event of 'Rounded Rect Button (Food)' is connected to the 'markEvent:' selector of 'File's Owner', but 'markEvent:' is no longer defined on 'hourlyMeViewController'.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#36#0#36#0#0"0(22@197"The 'Touch Up Inside' event of 'Rounded Rect Button (Log!)' is connected to the 'logFieldsToFile' selector of 'File's Owner', but 'logFieldsToFile' is no longer defined on 'hourlyMeViewController'.338022049#18446744073709551615#0#0(6@75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib338021984#23#0#23#0#0"0(0#0#75"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib8595450560#598"    cd /Users/binx/Documents/hourlyMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/hourlyMeViewController.nib /Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/hourlyMeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCopyStringsFile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/InfoPlist.strings hourlyMe/en.lproj/InfoPlist.strings
+s338022049.165090
+e338022049.294714
+r1
+xCopyStringsFile
+x/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj/InfoPlist.strings
+xhourlyMe/en.lproj/InfoPlist.strings
+lSLF07#2@40"Copy hourlyMe/en.lproj/InfoPlist.strings338022049#338022049#0(0"0(0#0#66"/Users/binx/Documents/hourlyMe/hourlyMe/en.lproj/InfoPlist.strings8610520352#477"    cd /Users/binx/Documents/hourlyMe    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary hourlyMe/en.lproj/InfoPlist.strings --outdir /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/en.lproj0#
+
+CGenerateDSYMFile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app.dSYM /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe
+s338022049.042516
+e338022049.164984
+r1
+xGenerateDSYMFile
+x/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app.dSYM
+x/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/hourlyMe.app.dSYM build/Debug-iphonesimulator/hourlyMe.app/hourlyMe338022049#338022049#0(0"0(0#0#80"/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe8610952896#362"    cd /Users/binx/Documents/hourlyMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe -o /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app.dSYM0#
+
+CLd /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe normal i386
+s338022048.618816
+e338022049.042287
+r1
+xLd
+x/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe
+xnormal
+xi386
+lSLF07#2@85"Link /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe338022048#338022049#0(0"0(0#0#0"8610154592#900"    cd /Users/binx/Documents/hourlyMe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator -F/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator -filelist /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/Objects-normal/i386/hourlyMe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework MessageUI -framework UIKit -framework Foundation -framework CoreGraphics -prebind -o /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/hourlyMe0#
+
+CProcessInfoPlistFile /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/Info.plist hourlyMe/hourlyMe-Info.plist
+s338022047.145005
+e338022047.199841
+r1
+xProcessInfoPlistFile
+x/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/Info.plist
+xhourlyMe/hourlyMe-Info.plist
+lSLF07#2@36"Process hourlyMe/hourlyMe-Info.plist338022047#338022047#0(0"0(0#0#59"/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMe-Info.plist27303536605069420#467"    cd /Users/binx/Documents/hourlyMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility hourlyMe/hourlyMe-Info.plist -genpkginfo /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app/Info.plist0#
+
+CProcessPCH /var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch.gch hourlyMe/hourlyMe-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s338022047.200066
+e338022048.306849
+r1
+xProcessPCH
+x/var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch.gch
+xhourlyMe/hourlyMe-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@39"Precompile hourlyMe/hourlyMe-Prefix.pch338022047#338022048#0(0"0(0#0#59"/Users/binx/Documents/hourlyMe/hourlyMe/hourlyMe-Prefix.pch8603524672#1866"    cd /Users/binx/Documents/hourlyMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-generated-files.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-own-target-headers.hmap -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-all-target-headers.hmap -iquote /Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/hourlyMe-project-headers.hmap -F/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator -I/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/include -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources/i386 -I/Users/binx/Documents/hourlyMe/build/hourlyMe.build/Debug-iphonesimulator/hourlyMe.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -c /Users/binx/Documents/hourlyMe/hourlyMe/hourlyMe-Prefix.pch -o /var/folders/8z/8zEurm4OHsKfySqaDdACKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/hourlyMe-Prefix-cxxaydtsedzygjadhmrurjtiieht/hourlyMe-Prefix.pch.gch0#
+
+CTouch /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app
+s338022049.947547
+e338022049.968764
+r1
+xTouch
+x/Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app
+lSLF07#2@77"Touch /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app338022049#338022049#0(0"0(0#0#0"8596553056#263"    cd /Users/binx/Documents/hourlyMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/binx/Documents/hourlyMe/build/Debug-iphonesimulator/hourlyMe.app0#
+
